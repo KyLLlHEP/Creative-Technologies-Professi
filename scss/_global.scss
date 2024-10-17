@@ -1,0 +1,17 @@
+@import "variables";
+main{
+  width:1440px;
+  height:2604px;
+  background-color:$white;
+}
+.wrapper {
+  width:1220px;
+  margin: 0 auto;
+}
+header {
+  width: inherit;
+  height: 465px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
