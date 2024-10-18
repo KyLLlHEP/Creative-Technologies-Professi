@@ -1,0 +1,24 @@
+
+main{
+    width:1440px;
+    height:2604px;
+    background-color:var(--white);
+}
+.wrapper {
+    width:1220px;
+    margin: 0 auto;
+}
+header {
+    padding-top: 20px;
+    width: inherit;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}

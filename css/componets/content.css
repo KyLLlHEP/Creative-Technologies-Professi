@@ -1,0 +1,50 @@
+/* BLOCK content section */
+.content-section {
+    width: inherit;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+
+}
+/* Container */
+.content-section__container {
+    max-width: 800px;
+    padding: 20px;
+
+}
+/* Title */
+.content-section__title {
+    font-family: "Inter",sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+/* Sub tittle */
+.content-section__subtitle {
+    font-size: 28px;
+    color: var(--text-color);
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+/* Describe*/
+.content-section__description {
+    font-size: 18px;
+    line-height: 1.8;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+.content-section__description strong {
+    color: var(--text-color);
+}
+.content-section__topics{
+    list-style: none;
+    font-family: "Inter",sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}

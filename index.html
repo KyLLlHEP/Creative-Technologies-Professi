@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Personal Blog</title>
-    <link rel="stylesheet" href="scss/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -20,14 +20,32 @@
                         <li class="navbar-item"><a href="#">Projects</a></li>
                         <li class="navbar-item"><a href="#">About</a></li>
                         <li class="navbar-item"><a href="#">Newsletter</a></li>
-                        <li class="navbar-item"><a href="#">Toggle Mode</a></li>
+                        <li class="navbar-item">
+                            <div class="toggle-mode">
+                                <img src="img/sun.svg" alt="Sun" class="icon sun-icon">
+                                <img src="img/moon.svg" alt="Moon" class="icon moon-icon">
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
           </header>
-         <section class="content">
-             <div class="content-container">
-                 <h2>Content Section</h2>
+         <section class="content-section">
+             <div class="content-section__container">
+                 <h2 class="content-section__title">I am Artur Kushner</h2>
+                 <p class="content-section__subtitle">Frontend Developer & Creative Technologist</p>
+                 <p class="content-section__description">
+                     Welcome to my blog where I share insights on <strong>Creative Technologies</strong> and <strong>Frontend Development</strong>. Here, you will find curated content from various resources, covering topics such as:
+                 </p>
+                 <ul class="content-section__topics">
+                     <li>Latest trends in frontend frameworks</li>
+                     <li>Innovative web design practices</li>
+                     <li>Creative technology advancements</li>
+                     <li>Useful resources for developers and designers</li>
+                 </ul>
+                 <p class="content-section__description">
+                     Stay tuned for articles, tutorials, and personal projects that explore the intersection of technology and creativity!
+                 </p>
              </div>
          </section>
 
