@@ -15,10 +15,11 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-
 }
 a {
     text-decoration: none;
     color: var(--text-color);
+}
+.blog{
+    width: inherit;
 }

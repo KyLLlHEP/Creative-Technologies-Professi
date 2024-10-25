@@ -1,9 +1,35 @@
-
-
-
-
-.blog-post-card__blog{
-    width: 592px;
+.blog__item{
+    width: 1280px;
+    height: 496px;
+    margin: 0 auto;
+    /*border: 1px solid green;*/
+}
+.blog__content{
     height: 432px;
-    border: 1px solid green;
+    display: flex;
+}
+.column--half{
+    width: 50%;
+    border: 1px solid purple;
+}
+.blog-post-card{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+.blog-post-card__image-wrapper{
+    width: 100%;
+    height: 225px;
+
+}
+.blog-post-card__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Заполняет блок, сохраняя пропорции */
+}
+.blog-post-card__content{
+    border: 1px solid yellowgreen;
+    width: 100%;
+    height: 170px;
 }
