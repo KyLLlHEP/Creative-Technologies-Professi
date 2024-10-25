@@ -9,7 +9,12 @@
 }
 .column--half{
     width: 50%;
-    border: 1px solid purple;
+}
+.blog__item--tittle{
+    color: var(--text-color);
+    font-family: "Inter",sans-serif;
+    font-weight: 600;
+    font-size: 24px;
 }
 .blog-post-card{
     display: flex;
@@ -66,5 +71,25 @@
 }
 .blog-post-card__category{
     height: 24px;
-    border: 1px solid purple;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.category-badge{
+    font-family: "Inter",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 20px;
+    background-color: var(--badge-background);
+    border-radius: 5px;
+}
+.category-badge__design{
+    color: var(--author-color);
+}
+.category-badge__research{
+    color: var(--research-text);
+}
+.category-badge__presentation{
+    color: var(--presentation-text);
 }
