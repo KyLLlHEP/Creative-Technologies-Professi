@@ -100,7 +100,7 @@
 .post-card-column{
     display: flex;
     gap: 15px;
-    margin-left: 20px;
+    margin-left: 10px;
     padding-bottom: 30px;
 }
 .card-column__image-wrapper{
