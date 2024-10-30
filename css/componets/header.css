@@ -32,8 +32,8 @@
     transition: color 0.3s, background-color 0.3s;
 }
 .navbar-item a:hover {
-    color: #333;
-    background-color: #f0f0f0;
+    color: #6941C6;
+    font-size: 1.3em;
     border-radius: 10px;
 }
 .toggle-mode {

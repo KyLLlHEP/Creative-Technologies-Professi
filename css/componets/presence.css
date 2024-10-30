@@ -1,0 +1,61 @@
+/* Основной контент блога */
+.blog-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    font-family: "Inter",sans-serif;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.blog__post-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.blog__post-title {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.blog__post-date {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+
+.blog__post-image {
+    width: 100%;
+    margin: 15px 0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.blog__post-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.blog__post-content p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+.blog__post-content h2 {
+    font-size: 28px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.blog-link {
+    color: var(--research-text);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.blog-link:hover {
+    color: var(--presentation-text);
+    text-decoration: underline;
+}

@@ -1,0 +1,31 @@
+.footer {
+    height: 85px;
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-text {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.footer-link {
+    text-decoration: none;
+    transition: color 0.3s ease, font-size 0.3s ease;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--text-color);
+}
+.footer-link:hover {
+    color: #6941C6;
+    font-size: 1.1em;
+}

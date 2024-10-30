@@ -48,3 +48,13 @@
     font-weight: 600;
     letter-spacing: 0.1em;
 }
+.interactive-wrapper {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.interactive-wrapper:hover .blog-post-card__image,
+.interactive-wrapper:hover .heading__title-icon img {
+    transform: scale(1.1);
+}
