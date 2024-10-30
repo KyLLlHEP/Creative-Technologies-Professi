@@ -1,3 +1,17 @@
 .all-blog__container{
-
+    display: flex;
+    flex-direction: column;
+}
+.container__row{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+.post-card-row{
+    width: 380px;
+    height: 440px;
+    margin: 20px;
 }
