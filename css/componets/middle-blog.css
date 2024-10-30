@@ -2,5 +2,14 @@
     width: 100%;
     height: 306px;
     margin: 0 auto;
-    border: 1px solid pink;
+}
+.middle-blog__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.content-picture{
+    margin-top: 20px;
+    margin-left: 20px;
 }
